@@ -1,73 +1,184 @@
 <!DOCTYPE html>
+<html>
 <head>
+  <title>JavaScript Quiz</title>
+</head>
 <body>
   <header>
-    <h1>Javascript Diagnostic Quiz</h1>
-    <p>Javascript can be difficult to learn! That's why it's so important to continuously evaluate your strengths and weaknesses throughout the learning process. This quiz is designed to help Javascript beginners figure out which concepts they should review to solidify their knowledge base.</p>
+    <h1>JavaScript Diagnostic Quiz</h1>
+    <p class="question">JavaScript can be difficult to learn! That's why it's so important to continuously evaluate your strengths and weaknesses throughout the learning process. This quiz is designed to help JavaScript beginners figure out which concepts they should review to solidify their knowledge base. It is strongly suggested that you do not guess. If you have no clue what the answer is, simply leave the question blank. That way, you'll be able to accurately pinpoint where your understanding is breaking down!</p>
     <button>Start Quiz!</button>
   </header>
   <section id="structure">
-    <div class="question">
+    <div class="container">
+      <p class="question">1. Which of the following options shows data displayed in a string format?</p>
+      <form class="options">
+        <input class="option" type="radio" name="question1" value=4>bear<br>
+        <input class="option" type="radio" name="question1" value=3>"bear"<br>
+        <input class="option" type="radio" name="question1" value=2>bear();<br>
+        <input class="option" type="radio" name="question1" value=1>true</br>
+      </form>
     </div>
-    <div class="question">
+    <div class="container">
+      <p class="question">2. Write one is not equal to two in JavaScript.</p>
+      <form class="options">
+        <input class="option" type="radio" name="question2" value=4>"1" != "2"<br>
+        <input class="option" type="radio" name="question2" value=3>1 =! 2<br>
+        <input class="option" type="radio" name="question2" value=2>"1" =! "2"<br>
+        <input class="option" type="radio" name="question2" value=1>1 != 2</br>
+      </form>
     </div>
-    <div class="question">
+    <div class="container">
+      <p class="question">3. Which option(s) correctly display popup boxes? Select all that apply. </p>
+      <form class="options">
+        <input class="option" type="radio" name="question3" value=4>alert("There's someone behind you.")<br>
+        <input class="/option" type="radio" name="question3" value=3>prompt("Are you a feline fanatic?");<br>
+        <input class="option" type="radio" name="question3" value=2>var catQuestion = prompt("Are you a feline fanatic?")<br>
+        <input class="option" type="radio" name="question3" value=1>alert("There's someone behind you.");</br>
+      </form>
     </div>
   </section>
   <section id="variables">
-    <div class="question">
+    <div class="container">
+      <p class="question">4. Before you use a variable in JavaScript, you must:</p>
+      <form class="options">
+        <input class="option" type="radio" name="question4" value=4>declare it with the var keyword (ex: var cat = "spotted");<br>
+        <input class="option" type="radio" name="question4" value=3>declare it with the variable keyword (ex: variable cat = "spotted");<br>
+        <input class="option" type="radio" name="question4" value=2>Find the pre-existing keyword for the variable you wish to use<br>
+        <input class="option" type="radio" name="question4" value=1></br>
+      </form>
     </div>
-    <div class="question">
+    <div class="container">
+      <p class="question">5. All of the following statements are true except:</p>
+      <form class="options">
+        <input class="option" type="radio" name="question5" value=4>variable names must can contain digits, underscores, letters and dollar signs<br>
+        <input class="option" type="radio" name="question5" value=3>variable names are case sensitive, meaning bear and Bear are two different variables<br>
+        <input class="option" type="radio" name="question5" value=2>variable names are chosen by the programmer<br>
+        <input class="option" type="radio" name="question5" value=1>reserved JavaScript words can also be used as variable names</br>
+      </form>
     </div>
-    <div class="question">
+    <div class="container">
+      <p class="question">Which of the following correctly identifies the string and the variable in a concactenation that is logged to the console?</p>
+      <form class="options">
+        <input class="option" type="radio" name="question6" value=4>console.log(catNum + " are sleeping!"); the variable is catNum and the string is " are sleeping!"<br>
+        <input class="option" type="radio" name="question6" value=3>console.log("catNum" + " are sleeping!"); the variable is "catNum" and the string is " are sleeping!"<br>
+        <input class="option" type="radio" name="question6" value=2>console.log(catNum + are sleeping!); the string is catNum and the variable is + are sleeping<br>
+        <input class="option" type="radio" name="question6" value=1>console.log(catNum + are sleeping); catNum + are sleeping all represent variables since they are within console.log();</br>
+      </form>
     </div>
   </section>
   <section id="statements">
-    <div class="question">
+    <div class="container">
+      <p class="question">Your want to write code that displays "Condition x is TRUE!" if condition x is true. Otherwise, in all other conditions, you want to display "Nothing to see here." Which option below displays your target code correctly?</p>
+      <form class="options">
+        <input class="option" type="radio" name="question7" value=4>if {condition x = true} (alert("Condition x is TRUE!")) else {alert("Nothing to see here.")}<br>
+        <input class="option" type="radio" name="question7" value=3>if (condiiton x = true) {alert("Condition x is TRUE!")} else {alert("Nothing to see here.")}<br>
+        <input class="option" type="radio" name="question7" value=2>if {condition x == true} (alert("Condiiton x is TRUE!")) else (alert("Nothing to see here."))<br>
+        <input class="option" type="radio" name="question7" value=1>if (condition x == true) {alert("Condition x is TRUE!")} else {alert("nothing to see here.")}</br>
+      </form>
     </div>
-    <div class="question">
+    <div class="container">
+      <p class="question">You want to write out all of the dog breeds in the array var dogs = ["Poodle", "Bulldog", "Beagle", "Chihuahua", "Pug"] in a continuous series of alerts that say "Congratulations, your fur baby is a __________!" Which code below displays the most efficient way to accomplish this?</p>
+      <form class="options">
+        <input class="option" type="radio" name="question8" value=4>if (dogs[0]) {alert("Congratulations, your fur baby is a " = dogs)<br>
+        <input class="option" type="radio" name="question8" value=3>alert("Congratulations, your fur baby is a " + dogs[0]); alert("Congratulations, your fur baby is a " + dogs[1]); alert("Congratulations, your fur baby is a " + dogs[2]); alert("Congratulations, your fur baby is a " + dogs[3]); alert("Congratulations, your fur baby is a " + dogs[4]);<br>
+        <input class="option" type="radio" name="question8" value=2>do { alert("Congratulations, your fur baby is a " + dogs[i]") while (i < 5); } <br>
+        <input class="option" type="radio" name="question8" value=1>for (i = 0; i < dogs.length; i++) { alert("Congratulations, your fur baby is a " + dogs[i]);} </br>
+      </form>
     </div>
-    <div class="question">
+    <div class="container">
+      <p class="question">You want to write out the dog breed in the array var dog = ["Poodle", "Bulldog", "Beagle", "Chihuahua", "Pug"] that corresponds to var fur = "curly" in an alert that says "Congratulations, your fur baby is a Poodle!" Which code below displays a method to accomplish this?</p>
+      <form class="options">
+        <input class="option" type="radio" name="question9" value=4>if (dogs[0] = "curly") {alert("Congratulations, your fur baby is a " = dogs)<br>
+        <input class="option" type="radio" name="question9" value=3>alert("Congratulations, your fur baby is a " + dogs[0]);<br>
+        <input class="option" type="radio" name="question9" value=2>do {alert("Congratulations, your fur baby is a " + dogs[0]);} while (var fur = "curly") <br>
+        <input class="option" type="radio" name="question9" value=1>for (i = 0; i < 0; i++) { alert("Congratulations, your fur baby is a " + dogs[i]);} </br>
+      </form>
     </div>
   </section>
   <section id="functions">
-    <div class="question">
+    <div class="container">
+      <p class="question">You want to define a function that prompts the user to provide their name, and then you want to call that function. Which code below displays a method to accomplish this?</p>
+      <form class="options">
+        <input class="option" type="radio" name="question10" value=4>function identify() { var ask = prompt("Please enter your name below.");} <br>
+        <input class="option" type="radio" name="question10" value=3>function identify (var ask = prompt{"Please enter your name below.")};) <br> identify{};<br>
+        <input class="option" type="radio" name="question10" value=2>function { var ask = prompt("Please enter your name below.");} <br> identify{};<br>
+        <input class="option" type="radio" name="question10" value=1>function identify() { var ask = prompt("Please enter your name below.");} <br> identify();</br>
+      </form>
     </div>
-    <div class="question">
+    <div class="container">
+      <p class="question">Which of the following correctly identifies the difference between parameters and arguments?</p>
+      <form class="options">
+        <input class="option" type="radio" name="question11" value=4>function(greeting) // greeting is the parameter<br>greeting("Hi!"); // "Hi" is the argument
+        <br>
+        <input class="option" type="radio" name="question11" value=3>function(greeting) {};// greeting is the argument<br>greeting("Hi!"); // "Hi" is the parameter<br>
+        <input class="option" type="radio" name="question11" value=2>There is no difference between parameters and arguments.<br>
+        <input class="option" type="radio" name="question11" value=1>arguments are properties of a function, while parameters are properties of a particular call to a function.</br>
+      </form>
     </div>
-    <div class="question">
+    <div class="container">
+      <p class="question">Choose the option below that correctly defines the use of a global and local variable within a function in the commented segments.</p>
+      <form class="options">
+        <input class="option" type="radio" name="question12" value=4>var number = 3; <br> function animal() { var species = "bear" // global variable <br> number; // local variable
+        <br>
+        <input class="option" type="radio" name="question12" value=3>number = 3; <br> function animal() { species = "bear" // local variable <br> number; // global variable <br>
+        <input class="option" type="radio" name="question12" value=2>var number = 3; <br> function { var species = "bear" // local variable <br> number; // global variable <br>
+        <input class="option" type="radio" name="question12" value=1>var number = 3; <br> function animal() { var species = "bear" // local variable <br> number; // global variable }</br>
+      </form>
     </div>
   </section>
   <section id="objects">
-    <div class="question">
+    <div class="container">
+      <p class="question">What is the keyword "this" used for?</p>
+      <form class="options">
+        <input class="option" type="radio" name="question13" value=4>it is refers to and identifies the object you're currently working with
+        <br>
+        <input class="option" type="radio" name="question13" value=3>it refers to and identifies the scope of the variables you're currently working with<br>
+        <input class="option" type="radio" name="question13" value=2>it creates a new object<br>
+        <input class="option" type="radio" name="question13" value=1>it establishes inheritance within a newly created object</br>
     </div>
-    <div class="question">
+    <div class="container">
+      <p class="question">Which option below uses an object constructor to create a new object?</p>
+      <form class="options">
+        <input class="option" type="radio" name="question14" value=4>var bear = {type:"Polar", coat:"white", habitat:"North Pole", drink:"Cola"}<br>
+        <input class="option" type="radio" name="question14" value=3>var bear = new Object();<br> bear.type="Polar";<br>bear.coat="white";<br>bear.habitat="North Pole";<br>bear.drink="Cola";
+        <br>
+        <input class="option" type="radio" name="question14" value=2>f<br>function bear(type, coat, habitat, drink) { <br> this.type ="polar";<br>this.coat="white";<br>this.habitat="North Pole";<br>this.drink="Cola";}
+        <input class="option" type="radio" name="question14" value=1>new Object(bear) = this.polar;<br>this.white;<br> this.NorthPole<br>this.Cola</br>
+      </form>
     </div>
-    <div class="question">
+    <div class="container">
+      <p class="question">You want the object cat to inherit all the properties of the object mammal. What is one way to accomplish this?</p>
+      <form class="options">
+        <input class="option" type="radio" name="question15" value=4>var mammal = { fur: true } <br> var cat = mammal.proto<br>
+        <input class="option" type="radio" name="question15" value=3>var mammal = { fur: true }<br> cat.proto = mammal <br>
+        <input class="option" type="radio" name="question15" value=2>var cat = Object.create(mammal, fur)<br>
+        <input class="option" type="radio" name="question15" value=1>var mammal = { fur: true } <br> cat = Object.create(mammal)</br>
+      </form>
     </div>
   </section>
   <section id="prototypes">
-    <div class="question">
+    <div class="container">
     </div>
-    <div class="question">
+    <div class="container">
     </div>
-    <div class="question">
+    <div class="container">
     </div>
   </section>
   <section id="documentObjectModel">
-    <div class="question">
+    <div class="container">
     </div>
-    <div class="question">
+    <div class="container">
     </div>
-    <div class="question">
+    <div class="container">
     </div>
   </section>
   <section id="puttingItAllTogether">
-    <div class="question">
+    <div class="container">
     </div>
-    <div class="question">
+    <div class="container">
     </div>
-    <div class="question">
+    <div class="container">
     </div>
   </section>
 </body>
