@@ -75,6 +75,7 @@
         <input class="option" type="radio" name="question7" value=3>if (condiiton x = true) {alert("Condition x is TRUE!")} else {alert("Nothing to see here.")}<br>
         <input class="option" type="radio" name="question7" value=2>if {condition x == true} (alert("Condiiton x is TRUE!")) else (alert("Nothing to see here."))<br>
         <input class="option" type="radio" name="question7" value=1>if (condition x == true) {alert("Condition x is TRUE!")} else {alert("nothing to see here.")}</br>
+      </form>
     </div>
     <div class="container">
       <p class="question">You want to write out all of the dog breeds in the array var dogs = ["Poodle", "Bulldog", "Beagle", "Chihuahua", "Pug"] in a continuous series of alerts that say "Congratulations, your fur baby is a __________!" Which code below displays the most efficient way to accomplish this?</p>
@@ -83,6 +84,7 @@
         <input class="option" type="radio" name="question8" value=3>alert("Congratulations, your fur baby is a " + dogs[0]); alert("Congratulations, your fur baby is a " + dogs[1]); alert("Congratulations, your fur baby is a " + dogs[2]); alert("Congratulations, your fur baby is a " + dogs[3]); alert("Congratulations, your fur baby is a " + dogs[4]);<br>
         <input class="option" type="radio" name="question8" value=2>do { alert("Congratulations, your fur baby is a " + dogs[i]") while (i < 5); } <br>
         <input class="option" type="radio" name="question8" value=1>for (i = 0; i < dogs.length; i++) { alert("Congratulations, your fur baby is a " + dogs[i]);} </br>
+      </form>
     </div>
     <div class="container">
       <p class="question">You want to write out the dog breed in the array var dog = ["Poodle", "Bulldog", "Beagle", "Chihuahua", "Pug"] that corresponds to var fur = "curly" in an alert that says "Congratulations, your fur baby is a Poodle!" Which code below displays a method to accomplish this?</p>
@@ -91,6 +93,7 @@
         <input class="option" type="radio" name="question9" value=3>alert("Congratulations, your fur baby is a " + dogs[0]);<br>
         <input class="option" type="radio" name="question9" value=2>do {alert("Congratulations, your fur baby is a " + dogs[0]);} while (var fur = "curly") <br>
         <input class="option" type="radio" name="question9" value=1>for (i = 0; i < 0; i++) { alert("Congratulations, your fur baby is a " + dogs[i]);} </br>
+      </form>
     </div>
   </section>
   <section id="functions">
@@ -101,6 +104,7 @@
         <input class="option" type="radio" name="question10" value=3>function identify (var ask = prompt{"Please enter your name below.")};) <br> identify{};<br>
         <input class="option" type="radio" name="question10" value=2>function { var ask = prompt("Please enter your name below.");} <br> identify{};<br>
         <input class="option" type="radio" name="question10" value=1>function identify() { var ask = prompt("Please enter your name below.");} <br> identify();</br>
+      </form>
     </div>
     <div class="container">
       <p class="question">Which of the following correctly identifies the difference between parameters and arguments?</p>
@@ -110,6 +114,7 @@
         <input class="option" type="radio" name="question11" value=3>function(greeting) {};// greeting is the argument<br>greeting("Hi!"); // "Hi" is the parameter<br>
         <input class="option" type="radio" name="question11" value=2>There is no difference between parameters and arguments.<br>
         <input class="option" type="radio" name="question11" value=1>arguments are properties of a function, while parameters are properties of a particular call to a function.</br>
+      </form>
     </div>
     <div class="container">
       <p class="question">Choose the option below that correctly defines the use of a global and local variable within a function in the commented segments.</p>
@@ -119,14 +124,37 @@
         <input class="option" type="radio" name="question12" value=3>number = 3; <br> function animal() { species = "bear" // local variable <br> number; // global variable <br>
         <input class="option" type="radio" name="question12" value=2>var number = 3; <br> function { var species = "bear" // local variable <br> number; // global variable <br>
         <input class="option" type="radio" name="question12" value=1>var number = 3; <br> function animal() { var species = "bear" // local variable <br> number; // global variable }</br>
+      </form>
     </div>
   </section>
   <section id="objects">
     <div class="container">
+      <p class="question">What is the keyword "this" used for?</p>
+      <form class="options">
+        <input class="option" type="radio" name="question13" value=4>it is refers to and identifies the object you're currently working with
+        <br>
+        <input class="option" type="radio" name="question13" value=3>it refers to and identifies the scope of the variables you're currently working with<br>
+        <input class="option" type="radio" name="question13" value=2>it creates a new object<br>
+        <input class="option" type="radio" name="question13" value=1>it establishes inheritance within a newly created object</br>
     </div>
     <div class="container">
+      <p class="question">Which option below uses an object constructor to create a new object?</p>
+      <form class="options">
+        <input class="option" type="radio" name="question14" value=4>var bear = {type:"Polar", coat:"white", habitat:"North Pole", drink:"Cola"}<br>
+        <input class="option" type="radio" name="question14" value=3>var bear = new Object();<br> bear.type="Polar";<br>bear.coat="white";<br>bear.habitat="North Pole";<br>bear.drink="Cola";
+        <br>
+        <input class="option" type="radio" name="question14" value=2>f<br>function bear(type, coat, habitat, drink) { <br> this.type ="polar";<br>this.coat="white";<br>this.habitat="North Pole";<br>this.drink="Cola";}
+        <input class="option" type="radio" name="question14" value=1>new Object(bear) = this.polar;<br>this.white;<br> this.NorthPole<br>this.Cola</br>
+      </form>
     </div>
     <div class="container">
+      <p class="question">You want the object cat to inherit all the properties of the object mammal. What is one way to accomplish this?</p>
+      <form class="options">
+        <input class="option" type="radio" name="question15" value=4>var mammal = { fur: true } <br> var cat = mammal.proto<br>
+        <input class="option" type="radio" name="question15" value=3>var mammal = { fur: true }<br> cat.proto = mammal <br>
+        <input class="option" type="radio" name="question15" value=2>var cat = Object.create(mammal, fur)<br>
+        <input class="option" type="radio" name="question15" value=1>var mammal = { fur: true } <br> cat = Object.create(mammal)</br>
+      </form>
     </div>
   </section>
   <section id="prototypes">

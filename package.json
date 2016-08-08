@@ -1,0 +1,23 @@
+{
+  "name": "javascriptquiz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.9.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cmcorrales/javascriptquiz.git"
+  },
+  "author": "Cassandra Corrales",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cmcorrales/javascriptquiz/issues"
+  },
+  "homepage": "https://github.com/cmcorrales/javascriptquiz#readme"
+}
