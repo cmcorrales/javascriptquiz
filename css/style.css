@@ -1,0 +1,96 @@
+/*
+* {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+*/
+/* center, change font */
+body, html {
+  background: url("free_stethoscope_by_markbartle-d9b3h1z.png") no-repeat top right;
+  border-bottom: 0px;
+}
+body, html{
+  height: 100%;
+}
+.question, .startQuiz, .singleQuestion {
+  max-width: 100%;
+  font-family: 'open sans', sans-serif;
+  padding-top: 0px auto;
+  margin-top: 50px;
+  color: #64706E;
+}
+.question {
+  font-size: 18px;
+  text-align: center;
+}
+p {
+  margin: 0px 300px 0px 300px;
+}
+#structure {
+  margin: 0px 300px 0px 300px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.title {
+  color: #00C453;
+  font-size: 3em;
+  font-family: 'open sans', sans-serif;
+  text-align: center;
+  margin: 0px 300px 0px 300px;
+}
+
+.option, .startQuiz {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  font-family: 'inconsolata', monospace;
+  text-align: left;
+  border-radius: 5px;
+  background-color: #0DFF87;
+  font-size: 15px;
+  margin: 10px auto;
+  border-color: #0CE82B;
+}
+.option:hover, .startQuiz:hover{
+  background: #FF9280;
+  color: white;
+  border-color: #FF0D85;
+}
+
+.score{
+  max-width: 100%;
+  font-family: 'open sans', sans-serif;
+  padding-top: 0px auto;
+  text-align: center;
+  color: #006400;
+}
+
+.jstopic {
+    float:left;
+    width: 30%;
+    padding-bottom: 30%; /* = width for a 1:1 aspect ratio */
+    margin:1.66%;
+    background-color: #D3FF87;
+    color: #64706E;
+    text-align: center;
+    font-family: 'open sans', sans-serif;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+footer {
+  position: absolute;
+  margin: auto;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 2rem;
+  width: 100%;
+  border-color: #FF9280;
+  color: #64706E;
+  border-top-width: thick;
+  background-color: #D3FF87;
+  text-align: center;
+  font-family: 'open sans', sans-serif;
+  font-size: 25px;
+}
