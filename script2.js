@@ -10,7 +10,7 @@ $(document).ready(function() {
   "correct": "1 != 2"
   },
   { "toAsk": "Which option correctly displays popup boxes?",
-  "choices": ["alert:<br>\"There's someone behind you.\"", "alert(There is someone behind you.);","var catQuestion = prompt(\"Are you a feline fanatic?\")", "popup(\"Are you a feline fanatic?\")"] ,
+  "choices": ["alert:<br>\"There's someone behind you.\"", "alert(There is someone behind you.);","var catQuestion = prompt(\"Are you a feline fanatic?\");", "popup(\"Are you a feline fanatic?\")"] ,
   "correct": "var catQuestion = prompt(\"Are you a feline fanatic?\")"
   },
   { "toAsk": "Before you use a variable in JavaScript, you must:",
@@ -26,7 +26,7 @@ $(document).ready(function() {
   "correct": "console.log(catNum + \" are sleeping!\"); the variable is catNum and the string is \" are sleeping!\""
   },
   { "toAsk": "Your want to write code that displays \"Condition x is TRUE!\" if condition x is true. Otherwise, in all other conditions, you want to display \"Nothing to see here.\" Which option below displays your target code correctly?",
-  "choices": ["if {condition x = true} (alert(\"Condition x is TRUE!\")) else {alert(\"Nothing to see here.\")}","if (condiiton x = true) {alert(\"Condition x is TRUE!\")} else {alert(\"Nothing to see here.\")}","if {condition x == true} (alert(\"Condiiton x is TRUE!\")) else (alert(\"Nothing to see here.\"))","if (condition x == true) {alert(\"Condition x is TRUE!\")} else {alert(\"nothing to see here.\")}"],
+  "choices": ["if {condition x = true} (alert(\"Condition x is TRUE!\")) else {alert(\"Nothing to see here.\")}","if (conditon x = true) {alert(\"Condition x is TRUE!\")} else {alert(\"Nothing to see here.\")}","if {condition x == true} (alert(\"Condiiton x is TRUE!\")) else (alert(\"Nothing to see here.\"))","if (condition x == true) {alert(\"Condition x is TRUE!\")} else {alert(\"nothing to see here.\")}"],
   "correct": "if (condition x == true) {alert(\"Condition x is TRUE!\")} else {alert(\"nothing to see here.\")}"
   },
   { "toAsk": "You want to write out all of the dog breeds in the array var dogs = [\"Poodle\", \"Bulldog\", \"Beagle\", \"Chihuahua\", \"Pug\"] in a continuous series of alerts that say \"Congratulations, your fur baby is a __________!\" Which code below displays the most efficient way to accomplish this?",
