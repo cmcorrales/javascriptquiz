@@ -49,7 +49,7 @@ $(document).ready(function() {
 
   { "toAsk": "Choose the option below that correctly defines the use of a global and local variable within a function in the commented segments.",
   "choices": ["var number = 3; <br> function animal() { var species = \"bear\" // global variable <br> number; // local variable","number = 3; <br> function animal() { species = \"bear\" // local variable <br> number; // global variable","var number = 3; <br> function { var species = \"bear\" // local variable <br> number; // global variable <br>","var number = 3; <br> function animal() { var species = \"bear\" // local variable <br> number; // global variable }</br>"],
-  "correct": " function animal() { species = \"bear\" // local variable <br> number; // global variable"
+  "correct": "number = 3; <br> function animal() { species = \"bear\" // local variable <br> number; // global variable"
   },
 
   { "toAsk": "What is the keyword \"this\" used for?",
