@@ -43,7 +43,7 @@ $(document).ready(function() {
   },
 
   { "toAsk": "Which of the following correctly identifies the difference between parameters and arguments?",
-  "choices": ["function(greeting) // greeting is the parameter <br> greeting(\"Hi!\"); // \"Hi\" is the argument","function(greeting) {};// greeting is the argument <br> greeting(\"Hi!\"); // \"Hi\" is the parameter","There is no difference between parameters and arguments.","arguments are properties of a function, while parameters are properties of a particular call to a function."],
+  "choices": ["function(greeting) {} // greeting is the parameter <br> greeting(\"Hi!\"); // \"Hi\" is the argument","function(greeting) {};// greeting is the argument <br> greeting(\"Hi!\"); // \"Hi\" is the parameter","There is no difference between parameters and arguments.","arguments are properties of a function, while parameters are properties of a particular call to a function."],
   "correct": "function(greeting) // greeting is the parameter <br> greeting(\"Hi!\"); // \"Hi\" is the argument"
   },
 
