@@ -5,7 +5,7 @@
 */
 /* center, change font */
 body, html {
-  background: url("free_stethoscope_by_markbartle-d9b3h1z.png") no-repeat top right;
+  background: url("stethoscope980.png") no-repeat center right;
   border-bottom: 0px;
 }
 body, html{
@@ -23,10 +23,10 @@ body, html{
   text-align: center;
 }
 p {
-  margin: 0px 300px 0px 300px;
+  margin: 0px 200px 0px 200px;
 }
 #structure {
-  margin: 0px 300px 0px 300px;
+  margin: 0px 200px 0px 200px;
   font-size: 18px;
   text-align: center;
 }
@@ -36,7 +36,7 @@ p {
   font-size: 3em;
   font-family: 'open sans', sans-serif;
   text-align: center;
-  margin: 0px 300px 0px 300px;
+  margin: 0px 200px 0px 200px;
 }
 
 .option, .startQuiz {
@@ -45,6 +45,7 @@ p {
   -webkit-flex-direction: column;
   font-family: 'inconsolata', monospace;
   text-align: left;
+  width: 100%;
   border-radius: 5px;
   background-color: #0DFF87;
   font-size: 15px;
@@ -68,8 +69,8 @@ p {
 .jstopic {
     float:left;
     width: 30%;
-    padding-bottom: 30%; /* = width for a 1:1 aspect ratio */
-    margin:1.66%;
+    padding-bottom: 5%; /* = width for a 1:1 aspect ratio */
+    margin:1.5%;
     background-color: #D3FF87;
     color: #64706E;
     text-align: center;
@@ -93,4 +94,125 @@ footer {
   text-align: center;
   font-family: 'open sans', sans-serif;
   font-size: 25px;
+}
+
+@media screen and (max-width: 800px) {
+  .question, .startQuiz, .singleQuestion {
+    margin-top: 41.5px;
+  }
+  .question {
+    font-size: 14.94px;
+    text-align: center;
+  }
+  p {
+    margin: 0px 166px 0px 166px;
+  }
+  #structure {
+    margin: 0px 166px 0px 166px;
+    font-size: 14.94px;
+  }
+
+  .title {
+    font-size: 2.49em;
+    margin: 0px 166px 0px 166px;
+  }
+
+  .option, .startQuiz {
+    border-radius: 4.15px;
+    font-size: 12.45px;
+    margin: 8.3px auto;
+  }
+
+  .jstopic {
+      font-size: 14.94px;
+      border-radius: 4.15px;
+  }
+
+  footer {
+    padding: 1.66rem;
+    font-size: 20.75px;
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+  body, html {
+    background: url("stethoscope600.png") no-repeat center right;
+  }
+  .question, .startQuiz, .singleQuestion {
+    margin-top: 31.25px;
+  }
+  .question {
+    font-size: 11.25px;
+    text-align: center;
+  }
+  p {
+    margin: 0px 125px 0px 125px;
+  }
+  #structure {
+    margin: 0px 125px 0px 125px;
+    font-size: 11.25px;
+  }
+
+  .title {
+    font-size: 1.875em;
+    margin: 0px 125px 0px 125px;
+  }
+
+  .option, .startQuiz {
+    border-radius: 3.125px;
+    font-size: 9.375px;
+    margin: 6.25px auto;
+  }
+
+  .jstopic {
+      font-size: 11.25px;
+      border-radius: 3.125px;
+  }
+
+  footer {
+    padding: 1.25rem;
+    font-size: 15.625px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  body, html {
+    background: url("stethoscope480.png") no-repeat center right;
+  }
+  .question, .startQuiz, .singleQuestion {
+    margin-top: 12.5px;
+  }
+  .question {
+    font-size: 9px;
+    text-align: center;
+  }
+  p {
+    margin: 0px 100px 0px 100px;
+  }
+  #structure {
+    margin: 0px 100px 0px 100px;
+    font-size: 9px;
+  }
+
+  .title {
+    font-size: 1.5em;
+    margin: 0px 100px 0px 100px;
+  }
+
+  .option, .startQuiz {
+    border-radius: 2.5px;
+    font-size: 7.5px;
+    margin: 5px auto;
+  }
+
+  .jstopic {
+      font-size: 9px;
+      border-radius: 2.5px;
+  }
+
+  footer {
+    padding: 1rem;
+    font-size: 12.5px;
+  }
 }
