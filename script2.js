@@ -11,7 +11,7 @@ $(document).ready(function() {
   },
   { "toAsk": "Which option correctly displays popup boxes?",
   "choices": ["alert:<br>\"There's someone behind you.\"", "alert(There is someone behind you.);","var catQuestion = prompt(\"Are you a feline fanatic?\");", "popup(\"Are you a feline fanatic?\")"] ,
-  "correct": "var catQuestion = prompt(\"Are you a feline fanatic?\")"
+  "correct": "var catQuestion = prompt(\"Are you a feline fanatic?\");"
   },
   { "toAsk": "Before you use a variable in JavaScript, you must:",
   "choices": ["declare it with the var keyword (ex: var cat = \"spotted\");","declare it with the variable keyword (ex: variable cat = \"spotted\");","Find the pre-existing keyword for the variable you wish to use","declare it with the declare keyword (ex: declare cat = \"spotted\")"],
