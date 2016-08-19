@@ -57,7 +57,7 @@ $(document).ready(function() {
   "correct": "it refers to and identifies the object you\'re currently working with"
   },
   { "toAsk": "Which option below uses an object constructor to create a new object?",
-  "choices": ["var bear = {type:\"Polar\", coat:\"white\", habitat:\"North Pole\", drink:\"Cola\"}","var bear = new Object();<br> bear.type=\"Polar\";<br>bear.coat=\"white\";<br>bear.habitat=\"North Pole\";<br>bear.drink=\"Cola\";","function bear(type, coat, habitat, drink) { <br> this.type =\"polar\";<br>this.coat=\"white\";<br>this.habitat=\"North Pole\";<br>this.drink=\"Cola\";}","new Object(bear) = this.polar;<br>this.white;<br> this.NorthPole<br>this.Cola"],
+  "choices": ["var bear = {type:\"Polar\", coat:\"white\", habitat:\"North Pole\", drink:\"Cola\"}","var bear = new Object();<br> bear.type=\"Polar\";<br>bear.coat=\"white\";<br>bear.habitat=\"North Pole\";<br>bear.drink=\"Cola\";","function bear(type, coat, habitat, drink) { <br> this.type =\"polar\";<br>this.coat=\"white\";<br>this.habitat=\"North Pole\";<br>this.drink=\"Cola\";}","new Object(bear) = this.polar;<br>this.white;<br> this.NorthPole;<br>this.Cola;"],
   "correct": "function bear(type, coat, habitat, drink) { <br> this.type =\"polar\";<br>this.coat=\"white\";<br>this.habitat=\"North Pole\";<br>this.drink=\"Cola\";}"
   },
   { "toAsk": "You want the object cat to inherit all the properties of the object mammal. What is one way to accomplish this?",
